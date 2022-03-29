@@ -1,0 +1,40 @@
+<div class="ui content" style="color: aliceblue;">
+  <div class="ui center basic segment">
+
+    <div class="ui horizontal divider">
+      <h1 id="aboutMe">Mesajlar</h1>
+    </div>
+
+    <div class="ui divided list" *ngFor="let message of messageList$ | async">
+
+      <div [ngClass]="message.read ? 'ui blue float message' : 'ui green float message'">
+        <div class="ui two row grid">
+          <div class="row">
+            <div class="close icon">
+              <button class="ui button" (click)="toggleRead(message)">
+                <i [ngClass]="message.read ? 'left float blue envelope open icon' : 'left float green envelope icon'"></i>
+                {{ message.read ? 'okunmamış olarak işaretle!' : 'okunmuş olarak işaretle!' }}
+              </button>
+              <button class="ui button" (click)="deleteMessage(message)">
+                <i class="minus circle red icon"></i>
+                Sil
+              </button>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="header">
+              <p>
+                Başlık: {{ message.name }} <br>
+                Tarih: {{ message.date | date: 'dd-MM-yyyy' }} <br>
+                İletişim: {{ message.contactNumber }} <br>
+                Email: {{ message.email }} <br>
+                Mesaj: {{ message.message }} <br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
