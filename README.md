@@ -1,3 +1,4 @@
+
 # Manageable Portfolio
 Portfolio with a simple, plain, clear design with a manageable portfolio
 
@@ -16,7 +17,8 @@ Use it as you want
 ## Making
 - Ease of Use.
 - Angular
-
+# Note
+You have to do npm install one by one inside. @ngx-translate & @biesbjerg 
 ## Screenshots
 <img src="src/assets/ss/1.png">
 <img src="src/assets/ss/2.png">
