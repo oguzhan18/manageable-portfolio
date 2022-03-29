@@ -18,6 +18,10 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { environment } from '../environments/environment';
 
+import { TranslateModule, TranslateLoader, TranslateService } from "@ngx-translate/core";
+import { TranslateHttpLoader } from "@ngx-translate/http-loader";
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+
 import {MenubarModule} from 'primeng/menubar';
 import {ButtonModule} from 'primeng/button';
 import {DividerModule} from 'primeng/divider';
@@ -50,7 +54,14 @@ import {MessagesModule} from 'primeng/messages';
     AngularFirestoreModule,
     AngularFireStorageModule,
     AngularFireAuthModule,
-    
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: (http: HttpClient) => { return new TranslateHttpLoader(http, './assets/i18n/', '.json'); },
+        deps: [HttpClient]
+      }
+    }),
     BrowserAnimationsModule,
     MenubarModule,
     ButtonModule,

@@ -2,8 +2,13 @@
 <p-menubar [model]="items" target="_blank">
   <ng-template pTemplate="end">
     <div class="p-d-inline-flex p-flex-wrap">
+      <select (change)="useLang($event.target.value)">
+        <option *ngFor="let item of supportLanguages" [value]="item">{{item}}</option>
+      </select>
+      
+
+      
       <h4 class="p-d-inline p-mr-2">Oğuzhan ÇART</h4>
-    
     </div>
   </ng-template>
 </p-menubar>

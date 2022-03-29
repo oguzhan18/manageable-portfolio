@@ -1,0 +1,16 @@
+{
+	"home": {
+		"subheader": "",
+		"title": "Développeur de logiciels",
+		"welcomeback": "Actuellement",
+        "CodingSince":"Codage Depuis",
+        "ABOUTME":"À PROPOS DE MOI",
+        "ME":"Bonjour, je suis Oğuzhan ÇART. Depuis mon enfance, j'ai eu une grande fascination pour la technologie et les logiciels. J'ai essayé de m'améliorer dans le domaine du logiciel depuis le collège. J'ai étudié le département d'informatique au lycée professionnel de Sultangazi. Je travaille actuellement en tant que Développeur Front-End. Je me consacre à l'amélioration continue et à l'apprentissage. Si vous avez des questions ou des suggestions, n'hésitez pas à écrire.",
+        "PROJECTS":"PROJETS",
+        "SKILLS":"COMPÉTENCES",
+        "TOOLS":"OUTILS",
+        "CONTACTME":"CONTACTEZ MOI",
+        "SENDEMAİL":"ENVOYER UN E-MAIL"
+	}
+
+}

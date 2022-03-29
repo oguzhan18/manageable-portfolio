@@ -1,0 +1,16 @@
+{
+	"home": {
+		"subheader": "",
+		"title": "Softwareentwickler",
+		"welcomeback": "Zur Zeit",
+        "CodingSince":"Codierung Seit",
+        "ABOUTME":"ÜBER MICH",
+        "ME":"Hallo, ich bin Oğuzhan ÇART. Technik und Software faszinieren mich seit meiner Kindheit. Seit der Mittelschule versuche ich, mich im Softwarebereich zu verbessern. Ich studierte Informatik an der Sultangazi Vocational High School. Ich arbeite derzeit als Front-End-Entwickler. Ich widme mich der kontinuierlichen Verbesserung und dem Lernen. Wenn Sie Fragen oder Anregungen haben, zögern Sie nicht zu schreiben.",
+        "PROJECTS":"PROJEKTE",
+        "SKILLS":"FÄHIGKEITEN",
+        "TOOLS":"WERKZEUGE",
+        "CONTACTME":"KONTAKTIERE MICH",
+        "SENDEMAİL":"E-MAIL SENDEN"
+	}
+
+}
