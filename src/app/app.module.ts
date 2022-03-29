@@ -29,6 +29,7 @@ import {TooltipModule} from 'primeng/tooltip';
 import {MessageService} from 'primeng/api';
 import {MessagesModule} from 'primeng/messages';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,6 +50,7 @@ import {MessagesModule} from 'primeng/messages';
     AngularFirestoreModule,
     AngularFireStorageModule,
     AngularFireAuthModule,
+    
     BrowserAnimationsModule,
     MenubarModule,
     ButtonModule,
@@ -58,7 +60,7 @@ import {MessagesModule} from 'primeng/messages';
     InputTextareaModule,
     AvatarModule,
     TooltipModule,
-    MessagesModule
+    MessagesModule,
   ],
   providers: [
     MessageService
